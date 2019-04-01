@@ -12,11 +12,9 @@ def argue(phrase)
   "I'm right and you are wrong!"
 end
 
-def greeting (greeting, name)
+def greeting (greeting, name ="Bobby")
   puts ("#{greeting} , #{name}!")
 end
-greeting ("Hi there","Bobby")
-greeting ("Hi there")
 
 def return_a_value
   "Nice"
