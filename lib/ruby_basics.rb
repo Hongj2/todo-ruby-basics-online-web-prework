@@ -18,6 +18,7 @@ end
 
 def greeting(greeting)
   return "#{greeting}"
+end
 
 def return_a_value
   "Nice"
