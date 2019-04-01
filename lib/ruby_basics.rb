@@ -15,6 +15,7 @@ end
 def greeting (greeting, name ="Bobby")
   puts ("#{greeting} , #{name}!")
 end
+greeting (greeting)
 
 def return_a_value
   "Nice"
