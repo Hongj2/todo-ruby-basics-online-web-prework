@@ -13,7 +13,7 @@ def argue(phrase)
 end
 
 def greeting (greeting, name ="Bobby")
-  puts ("#{greeting}!")
+  puts ("#{greeting}, #{name}!")
 end
 greeting (greeting)
 
